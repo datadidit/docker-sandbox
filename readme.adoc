@@ -14,3 +14,5 @@ https://www.docker.com/products/docker-toolbox#/tutorials
 * RUN: commands to execute. 
 ** Each RUN instruction will executew the commond on the top writable layer and perform a commit of the image.
 ** Aggregate multiple RUN instructions using '&&'
+* CMD: defualt commands to run when running the image
+** CMD ping 127.0.0.1 -c 30
