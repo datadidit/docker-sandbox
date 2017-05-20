@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="cxf-karaf">
+    <!-- Feature Repositories needed for application -->
+    <repository>mvn:org.apache.cxf.karaf/apache-cxf/${cxf.version}/xml/features</repository>
+	
+	<feature name="cxf-example" version="${project.version}">
+		<feature>webconsole</feature>
+		<feature>cxf</feature>
+	</feature>
+</features>
