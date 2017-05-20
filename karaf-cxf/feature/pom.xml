@@ -52,15 +52,6 @@
 							<aggregateFeatures>true</aggregateFeatures>
 						</configuration>
 					</execution>
-					<!-- 
-					<execution>
-						<id>generate-kar</id>
-						<phase>package</phase>
-						<goals>
-							<goal>kar</goal>
-						</goals>
-					</execution>
-					-->
 				</executions>
 			</plugin>
 		</plugins>
