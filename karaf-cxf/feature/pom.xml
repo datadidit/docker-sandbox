@@ -6,7 +6,7 @@
 	<groupId>datadidit.karaf.feature</groupId>
 	<artifactId>cxf-example</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>kar</packaging>
 	<name>cxf-example</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -40,6 +40,7 @@
 			<plugin>
 				<groupId>org.apache.karaf.tooling</groupId>
 				<artifactId>karaf-maven-plugin</artifactId>
+				<extensions>true</extensions>
 				<executions>
 					<execution>
 						<id>generate-feature</id>
@@ -51,6 +52,15 @@
 							<aggregateFeatures>true</aggregateFeatures>
 						</configuration>
 					</execution>
+					<!-- 
+					<execution>
+						<id>generate-kar</id>
+						<phase>package</phase>
+						<goals>
+							<goal>kar</goal>
+						</goals>
+					</execution>
+					-->
 				</executions>
 			</plugin>
 		</plugins>
