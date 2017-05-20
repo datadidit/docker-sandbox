@@ -1,18 +1,26 @@
 = Notes
 
-* How to get machine ip:
+* How to get machine ip link:https://docs.docker.com/machine/reference/ip/
+* link:https://www.docker.com/products/docker-toolbox#/tutorials[Dockerfile reference]
+////
 ----
 https://docs.docker.com/machine/reference/ip/
 ----
-
-* Video Tutorials:
-----
-https://www.docker.com/products/docker-toolbox#/tutorials
-----
+////
+* link:https://www.docker.com/products/docker-toolbox#/tutorials[Video Tutorials]
 
 * FROM: base image
 * RUN: commands to execute. 
 ** Each RUN instruction will executew the commond on the top writable layer and perform a commit of the image.
 ** Aggregate multiple RUN instructions using '&&'
+
 * CMD: defualt commands to run when running the image
-** CMD ping 127.0.0.1 -c 30
+** CMD ping 127.0.0.1 -c 30 #shell form
+** Also exec form TODO: add example...
+
+* ENTRYPOINT: Same as CMD except it can't be overridden
+
+* Connect to a running container: docker exec -it [containerid] <cmd> 
+
+* Delete a local image: docker rmi [image ID] or docker rmi [repo:tag]
+

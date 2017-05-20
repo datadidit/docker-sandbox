@@ -2,3 +2,5 @@
 
 This is an example Apache Karaf and CXF image w/ a simple hello world REST application
 
+Great getting started example here: https://github.com/mkroli/karaf-docker/blob/master/Dockerfile
+
