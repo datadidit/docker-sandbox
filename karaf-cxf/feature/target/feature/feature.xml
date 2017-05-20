@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="cxf-karaf">
-    <repository>mvn:org.apache.cxf.karaf/apache-cxf/3.1.7/xml/features</repository>
-    <feature name="cxf-example" description="cxf-example" version="1.0.0.SNAPSHOT">
-        <feature prerequisite="false" dependency="false">webconsole</feature>
-        <feature prerequisite="false" dependency="false">cxf</feature>
-    </feature>
-</features>

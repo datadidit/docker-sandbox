@@ -8,6 +8,7 @@ WORKDIR /usr/local/workspace
 RUN wget http://apache.cs.utah.edu/karaf/4.1.1/apache-karaf-${KARAF_VERSION}.tar.gz \
 	&& mkdir apache-karaf; tar --strip=1 -C apache-karaf -xf apache-karaf-${KARAF_VERSION}.tar.gz 
 
+#TODO Can probably break it off here and start a new image based on above
 #Pull deploy CXF into karaf using a feature
 #RUN 
 
