@@ -1,0 +1,4 @@
+= Karaf CXF Image
+
+This is an example Apache Karaf and CXF image w/ a simple hello world REST application
+

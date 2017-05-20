@@ -4,3 +4,13 @@
 ----
 https://docs.docker.com/machine/reference/ip/
 ----
+
+* Video Tutorials:
+----
+https://www.docker.com/products/docker-toolbox#/tutorials
+----
+
+* FROM: base image
+* RUN: commands to execute. 
+** Each RUN instruction will executew the commond on the top writable layer and perform a commit of the image.
+** Aggregate multiple RUN instructions using '&&'
