@@ -1,0 +1,6 @@
+= Notes
+
+* How to get machine ip:
+----
+https://docs.docker.com/machine/reference/ip/
+----
