@@ -11,8 +11,9 @@ docker run -d -t datadidit/karaf-cxf -p 8181:8081
 ----
 
 Once the container is up and running you'll be able to to interact with the following REST endpoints:
-* http://[docker machine ip]:8181/cxf/hello . To pass in a 
-* http:[docker machine ip]:8181/cxf/hello/[param] . 
+
+* http://[docker machine ip]:8181/cxf/hello 
+* http:[docker machine ip]:8181/cxf/hello/[param]  
 
 At startup I deploy CXF and the REST bundle so it takes maybe ~30 seconds for all the deps to get installed into the karaf container. In order to see the status of your container you can 
 run the tail command mentioned below. 
