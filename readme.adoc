@@ -1,6 +1,6 @@
 = Notes
 
-* How to get machine ip link:https://docs.docker.com/machine/reference/ip/
+* link:https://docs.docker.com/machine/reference/ip/[Docker Machine IP]
 * link:https://www.docker.com/products/docker-toolbox#/tutorials[Dockerfile reference]
 * link:https://github.com/docker/labs[Docker Labs]
 ////
@@ -23,5 +23,7 @@ https://docs.docker.com/machine/reference/ip/
 
 * Connect to a running container: docker exec -it [containerid] <cmd> 
 
-* Delete a local image: docker rmi [image ID] or docker rmi [repo:tag]
-
+* Delete a local docker image
+----
+docker rmi [image ID] or docker rmi [repo:tag]
+----
