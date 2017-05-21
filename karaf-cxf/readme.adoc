@@ -4,3 +4,20 @@ This is an example Apache Karaf and CXF image w/ a simple hello world REST appli
 
 Great getting started example here: https://github.com/mkroli/karaf-docker/blob/master/Dockerfile
 
+Start container example:
+
+----
+docker run -d -t mkwyche/karaf-cxf:1.0 -p 8181:8081
+----
+
+Accessing running container
+
+----
+docker exec -i -t [container ID] /bin/bash
+----
+
+Tail karaf logs
+
+----
+docker exec -i -t [container ID] tail -f apache-karaf/data/karaf.log
+----

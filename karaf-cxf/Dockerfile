@@ -18,5 +18,8 @@ RUN cd /usr/local/workspace/feature; mvn clean install -B -U \
 
 #Figure out how to use WORKDIR here
 #ENTRYPOINT ["/usr/local/workspace/apache-karaf"]
+#Expose ports
+EXPOSE 8181
 
-CMD /bin/bash
+#CMD /bin/bash
+ENTRYPOINT ["apache-karaf/bin/karaf"]
