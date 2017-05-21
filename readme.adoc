@@ -27,3 +27,11 @@ https://docs.docker.com/machine/reference/ip/
 ----
 docker rmi [image ID] or docker rmi [repo:tag]
 ----
+
+* docker push didn't work the first time, this link:http://stackoverflow.com/questions/41984399/denied-requested-access-to-the-resource-is-denied-docker[link] was helpful. Ended up needing to run:
+
+----
+docker login
+----
+
+prior to my push
