@@ -1,2 +1,23 @@
 = Simple Mongo Image w/ Some Sample Data
 
+Add a simple Car data set to a mongo collection. 
+
+Helpful link:http://stackoverflow.com/questions/33558506/how-to-create-a-mongo-docker-image-with-default-collections-and-data[stackoverflow]
+
+* Start image by running 
+----
+docker run -d -t -p 27017:27017 datadidit/mongo-example
+----
+
+* Login into mongo console
+----
+docker exec -i -t [container ID] mongo
+----
+
+Run the following commands to see the data:
+----
+> use example
+> db.cars.find()
+----
+//Data is an urban dictionary dataset from Kaggle link:https://www.kaggle.com/athontz/urban-dictionary-terms[data]
+
