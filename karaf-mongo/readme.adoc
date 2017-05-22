@@ -1,6 +1,6 @@
 = Docker Compose App Example
 
-Simple Docker Compose App that starts up a mongo instance and uses Apache Karaf, CXF to provide REST interaction with REST w/ the backend. 
+Simple Docker Compose App that starts up a mongo instance and uses Apache Karaf, CXF to provide REST interaction with the Mongo backend. 
 Currently only works w/ default docker-machine ip. To change IP the REST resource connects to update IP in blueprint.xml file. 
 
 * To run the application run: 
