@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="cxf-karaf">
+    <!-- Feature Repositories needed for application -->
+    <repository>mvn:org.apache.cxf.karaf/apache-cxf/3.1.7/xml/features</repository>
+	
+	<feature name="cxf-example" version="1.0.0-SNAPSHOT">
+		<feature>webconsole</feature>
+		<feature>cxf</feature>
+		<bundle>mvn:org.mongodb/mongo-java-driver/3.3.0</bundle>
+		<bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.8.1</bundle>
+        <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.8.1</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-core/2.8.1</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-databind/2.8.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-annotations/2.8.0</bundle>
+        <bundle>mvn:com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.1</bundle>		
+		<bundle>mvn:datadidit.karaf.feature/cxf-mongo-example/1.0.0-SNAPSHOT</bundle>
+	</feature>
+</features>
