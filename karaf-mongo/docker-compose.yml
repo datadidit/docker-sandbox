@@ -1,0 +1,10 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+      - "8181:8181"
+  mongo:
+    image: "datadidit/mongo-example:1.0"
+    ports:
+      - "27017:27017"
