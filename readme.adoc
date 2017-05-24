@@ -7,7 +7,7 @@
 = Notes
 
 * link:https://docs.docker.com/machine/reference/ip/[Docker Machine IP]
-* link:https://www.docker.com/products/docker-toolbox#/tutorials[Dockerfile reference]
+* link:https://docs.docker.com/engine/reference/builder/[Dockerfile reference]
 * link:https://github.com/docker/labs[Docker Labs]
 * link:https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/[Dockerfile best practices]
 ////
