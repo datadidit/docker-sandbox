@@ -25,7 +25,7 @@
 	</jaxrs:server>
 	
 	<bean id="carProvider" class="datadidit.car.mongo.CarDataProvider" >
-		<argument value="192.168.99.100" /> <!-- Default mongo ip -->
+		<argument value="mongo-cars" /> <!-- Default mongo ip 192.168.99.100-->
 		<argument value="27017" />
 		<argument value="example" />
 		<argument value="cars" />

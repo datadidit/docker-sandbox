@@ -4,7 +4,9 @@ services:
     build: .
     ports:
       - "8181:8181"
+    container_name: karaf-rest
   mongo:
     image: "datadidit/mongo-example:1.0"
     ports:
       - "27017:27017"
+    container_name: mongo-cars
