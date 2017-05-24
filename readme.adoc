@@ -26,6 +26,7 @@ https://docs.docker.com/machine/reference/ip/
 ** CMD ping 127.0.0.1 -c 30 #shell form
 ** Also exec form TODO: add example...
 
+* YOU CAN USER JUST A PORTION OF THE CONTAINERID ON STOP AND REMOVE 
 * ENTRYPOINT: Same as CMD except it can't be overridden
 
 * Connect to a running container: docker exec -it [containerid] <cmd> 
