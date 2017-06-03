@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   web:
-    build: .
+    image: "datadidit/cxf-mongo-example"
     ports:
       - "8181:8181"
     container_name: karaf-rest
