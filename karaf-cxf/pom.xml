@@ -11,6 +11,7 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<cxf.version>3.1.7</cxf.version>
+		<image.name>datadidit/karaf-cxf</image.name>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -95,9 +96,9 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>datadidit/karaf-cxf</repository>
+					<repository>${image.name}</repository>
 					<dockerDirectory>${basedir}</dockerDirectory>
-					<imageName>datadidit/karaf-cxf</imageName>
+					<imageName>${image.name}</imageName>
 					<tag>${project.version}</tag>
 				</configuration>
 			</plugin>			
